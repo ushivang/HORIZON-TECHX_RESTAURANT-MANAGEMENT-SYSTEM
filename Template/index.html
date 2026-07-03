@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Events</title>
+</head>
+
+<body>
+
+<h1>Available Events</h1>
+
+{% for event in events %}
+
+<h3>{{event.name}}</h3>
+
+<p>Date : {{event.date}}</p>
+
+<p>Location : {{event.location}}</p>
+
+<a href="/register/{{event.id}}">
+<button>Register</button>
+</a>
+
+<hr>
+
+{% endfor %}
+
+</body>
+</html>
