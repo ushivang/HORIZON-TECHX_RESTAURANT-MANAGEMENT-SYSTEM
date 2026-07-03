@@ -1,0 +1,14 @@
+Event_Registration_System/
+│
+├── app.py
+├── database.db
+├── requirements.txt
+├── README.md
+│
+├── templates/
+│   ├── index.html
+│   ├── events.html
+│   └── register.html
+│
+└── static/
+    └── style.css
